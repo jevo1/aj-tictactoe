@@ -5,7 +5,11 @@ interface SquareProps {
 
 export function Square({ value, onSquareClick }: SquareProps) {
   return (
-    <button className="square" onClick={onSquareClick}>
+    <button 
+        className="square" 
+        onClick={onSquareClick}
+        data-hover-value={!value ? "X" : undefined}
+    >
       {value}
     </button>
   );
