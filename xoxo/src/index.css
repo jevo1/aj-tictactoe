@@ -11,7 +11,7 @@
   text-align: center;
   width: 34px;
   border-radius: 0;
-  
+  position: relative;
 }
 
 .square:focus {
